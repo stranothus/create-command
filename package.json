@@ -1,0 +1,26 @@
+{
+  "name": "create-command",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "index.js",
+    "build": "tsc"
+  },
+  "keywords": [
+    "terminal",
+    "command-line",
+    "command"
+  ],
+  "author": "Quinn Gibson",
+  "license": "ISC",
+  "bin": {
+    "custom-command": "index.js"
+  },
+  "dependencies": {
+    "typescript": "^4.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.24"
+  }
+}
